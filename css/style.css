@@ -1,0 +1,361 @@
+/*text hp*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*pil*/
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    background-color: #ebebeb;
+}
+
+.menu {
+    width: 100%;
+    height: 37px;
+    background-color: #373c3f;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: regular;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.menuleft {
+    margin-top: 10px;
+    text-indent: 28px;
+    float: left;
+}
+
+.smartButton {
+    width: 37px;
+    height: 37px;
+    background-color: #202529;
+    float: right;
+}
+
+.smartButton .line1,
+.smartButton .line2,
+.smartButton .line3 {
+    width: 20px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.smartButton .line1 {
+    margin-top: 10px;
+}
+
+.smartButton .line2 {
+    margin-top: 6px;
+}
+
+.smartButton .line3 {
+    margin-top: 6px;
+
+}
+
+.nav {
+    background-color: #202529;
+    color: #ebebeb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+ul.nav li {
+    padding: 10px 28px;
+    border-bottom: 1px solid #333;
+}
+
+ul.nav li:first-child {
+    border-top: 1px solid #333;
+}
+
+#smartNav {
+    display: none;
+}
+
+.slider {
+    background: linear-gradient(to bottom right, #19b4c6, #078aa4);
+    width: 100%;
+    height: 174px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    padding: 65px 28px 0 28px;
+}
+
+.slider h1 {
+    width: 100%;
+}
+
+.slider small {
+    color: rgba(255,255,255,0.5);
+    line-height: 30px;
+}
+
+.slider small.arrow {
+    float: right;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 10px;
+}
+
+.slider2 {
+    width: 100%;
+    height: 80px;
+    background-color: #27212c;
+}
+
+.slider2 .textbox {
+    width: 75%;
+    height: 80px;
+    float: left;
+    color: #9282a0;
+    font-size: 10px;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /*W3C*/
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+.slider2a {
+    width: 80px;
+    height: 80px;
+    float: right;
+    background-color: #bc3183;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+
+.slider3 {
+    width: 100%;
+}
+
+.slider3 .girl {
+    width: 100%;
+    margin-top: -4px;
+}
+
+.slider3 .purple {
+    width: 100%;
+}
+
+.slider3 .bridge {
+    width: 100%;
+    margin-top: -4px;k
+}
+
+.slider3 .purple img {
+    width: 100%;
+}
+
+.slider3 .bridge img {
+    width: 100%;
+}
+
+.slider3 .girl img {
+    width: 100%;
+}
+
+section.slider4 {
+    background-color: #ebebeb;
+    padding: 28px;
+    color: #515151;
+}
+
+section.slider4 h1 {
+    color: #088ca5;
+    font-size: 19px;
+}
+
+section.slider4 p {
+    font-size: 12px;
+    margin: 30px 0;
+}
+
+section.slider4 p:nth-last-child(3),
+section.slider4 p:nth-last-child(4) {
+    display: none;
+}
+
+@media all and (min-width: 640px) {
+    .menu {
+        height: 74px;
+        font-size: 18px;
+    }
+    .menuleft {
+        text-indent: 38px;
+        margin-top: 23px;
+    }
+    .smartButton {
+        width: 74px;
+        height: 74px;
+    }
+    .smartButton .line1,
+    .smartButton .line2,
+    .smartButton .line3 {
+        width: 30px;
+        height: 2px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    .smartButton .line1 {
+        margin-top: 24px;
+    }
+
+    .smartButton .line2 {
+        margin-top: 8px;
+    }
+
+    .smartButton .line3 {
+        margin-top: 8px;
+    }
+    ul.nav li {
+        padding: 30px 38px;
+        font-size: 18px;
+    }
+    .slider {
+        height: 348px;
+        padding: 120px 52px 0 52px;
+    }
+    .slider h1 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .slider .link {
+        margin-top: 40px;
+        padding-right: 100px;
+    }
+
+    .slider .link small {
+        font-size: 18px;
+    }
+
+    .slider .link small.arrow {
+        font-size: 24px;
+    }
+    .slider2 {
+        height: 156px;
+    }
+    .slider2a {
+        width: 156px;
+        height: 156px;
+        font-size: 32px;
+    }
+    .slider2 .textbox {
+        height: 156px;
+        font-size: 20px;
+    }
+    section.slider4 {
+        padding: 74px;
+    }
+    section.slider4 h1 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .slider4a {
+        margin-top: 50px;
+    }
+    section.slider4 p {
+        font-size: 22px;
+        line-height: 44px;
+        margin: 0 0 50px 0;
+    }
+
+    section.slider4 p:nth-last-child(3)
+    section.slider4 p:nth-last-child(4) {
+        display: block;
+    }
+}
+
+@media all and (min-width: 980px) {
+    .menu {
+        display: none;
+    }
+    #smartNav {
+        display: block;
+    }
+    ul.nav li {
+        display: inline-block;
+        border: none;
+        height: 97px;
+        font-size: 14px;
+        padding: 38px;
+    }
+
+    .slider3 {
+        width: 100%;
+        clear: both;
+    }
+
+    .slider3 .purple,
+    .slider3 .bridge,
+    .slider3 .girl {
+        width: 33.333%;
+        float: left;
+        margin-top: 0;
+    }
+
+    ul.nav {
+        height: 97px;
+    }
+    .slider4a {
+        -webkit-column-count: 2;
+        -moz-column-count: 2; 
+        column-count: 2;
+    }
+
+    section.slider4 p:nth-last-child(3),
+    section.slider4 p:nth-last-child(4) {
+        display: block;
+    }
+    .clear {
+        clear: both;
+    }
+}
+
+/* Jesper M. Lund*/
